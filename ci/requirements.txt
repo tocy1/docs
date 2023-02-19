@@ -3,5 +3,6 @@ scrapy==1.5.1
 pytest>=3.3.0
 tabulate>=0.8.2
 python-frontmatter>=0.4.2
-twisted==19.2.1
+twisted==22.10.0rc1
 attrs>=17.4.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
